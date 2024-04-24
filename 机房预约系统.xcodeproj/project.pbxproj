@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2AAF933A2BD93B9A00F88F7F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AAF93392BD93B9A00F88F7F /* main.cpp */; };
+		2AAF93472BD943D200F88F7F /* Identify.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AAF93452BD943D200F88F7F /* Identify.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		2AAF93362BD93B9A00F88F7F /* 机房预约系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "机房预约系统"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AAF93392BD93B9A00F88F7F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2AAF93452BD943D200F88F7F /* Identify.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Identify.cpp; sourceTree = "<group>"; };
+		2AAF93462BD943D200F88F7F /* Identify.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Identify.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				2AAF93392BD93B9A00F88F7F /* main.cpp */,
+				2AAF93452BD943D200F88F7F /* Identify.cpp */,
+				2AAF93462BD943D200F88F7F /* Identify.hpp */,
 			);
 			path = "机房预约系统";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AAF933A2BD93B9A00F88F7F /* main.cpp in Sources */,
+				2AAF93472BD943D200F88F7F /* Identify.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
