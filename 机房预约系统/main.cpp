@@ -19,6 +19,39 @@ using namespace std;
 #include "Teacher.hpp"
 #include "Manager.hpp"
 
+void managerMenu(Identify * &manager) {
+    while (true) {
+        manager->openMenu();
+        
+        Manager * man = (Manager*) manager;
+        
+        int select = 0;
+        cin >> select;
+        
+        if (select == 1) {
+            
+        } else if (select == 1) { // 添加账号
+            
+        } else if (select == 2) { // 查看账号
+            
+        } else if (select == 3) { // 查看机房
+            
+        } else if (select == 4) { // 清空预约
+            
+        } else if (select == 0) { // 注销登录
+            delete manager;
+            cout << "注销成功" << endl;
+            cout << "Press any key to continue...";
+            cout << endl;
+            cin.get(); // 等待用户输入
+            getchar(); // 获取并丢弃输入缓冲区的第一个字符（通常是换行符）
+            return;
+        }
+        
+    }
+    
+}
+
 void LoginIn(string fileName, int type) {
     cout << endl;
     system("pwd");
@@ -124,6 +157,7 @@ void LoginIn(string fileName, int type) {
                 cout << "登录成功" << endl;
                 cout << "进入管理员菜单" << endl;
                 person = new Manager(name, pwd);
+                managerMenu(person);
                 return;
             }
         }
@@ -142,7 +176,7 @@ int main(int argc, const char * argv[]) {
         cout << "\t\t2 老师\n" << endl;
         cout << "\t\t3 管理员\n" << endl;
         cout << "\t\t0 退出\n" << endl;
-        cout << "请输入您的选择: ";
+        cout << "请输入您的选择: " << endl;
         
         cin >> select; // 接受用户选择
         
