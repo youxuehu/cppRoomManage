@@ -4,7 +4,7 @@
 //
 //  Created by youxuehu on 2024/4/24.
 //
-
+#pragma once
 #include <iostream>
 using namespace std;
 

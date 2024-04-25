@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A9DACB72BDA90A800904DFD /* Manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A9DACB52BDA90A800904DFD /* Manager.cpp */; };
+		2A9DACBA2BDA92D400904DFD /* GlobalFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A9DACB82BDA92D400904DFD /* GlobalFile.cpp */; };
 		2AAF933A2BD93B9A00F88F7F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AAF93392BD93B9A00F88F7F /* main.cpp */; };
-		2AAF93472BD943D200F88F7F /* Identify.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AAF93452BD943D200F88F7F /* Identify.cpp */; };
+		2AAF934C2BD94FBB00F88F7F /* Identify.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AAF934A2BD94FBB00F88F7F /* Identify.cpp */; };
+		2AAF934F2BD950EE00F88F7F /* Teacher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AAF934D2BD950EE00F88F7F /* Teacher.cpp */; };
+		2AAF93552BD953A900F88F7F /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AAF93532BD953A900F88F7F /* Student.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +28,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A9DACB52BDA90A800904DFD /* Manager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Manager.cpp; sourceTree = "<group>"; };
+		2A9DACB62BDA90A800904DFD /* Manager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Manager.hpp; sourceTree = "<group>"; };
+		2A9DACB82BDA92D400904DFD /* GlobalFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GlobalFile.cpp; sourceTree = "<group>"; };
+		2A9DACB92BDA92D400904DFD /* GlobalFile.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GlobalFile.hpp; sourceTree = "<group>"; };
+		2A9DACBB2BDA938500904DFD /* admin.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = admin.txt; sourceTree = "<group>"; };
+		2A9DACBC2BDA939D00904DFD /* student.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = student.txt; sourceTree = "<group>"; };
+		2A9DACBD2BDA93AA00904DFD /* order.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = order.txt; sourceTree = "<group>"; };
+		2A9DACBE2BDA93B700904DFD /* teacher.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = teacher.txt; sourceTree = "<group>"; };
+		2A9DACBF2BDA93C600904DFD /* computer.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = computer.txt; sourceTree = "<group>"; };
 		2AAF93362BD93B9A00F88F7F /* 机房预约系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "机房预约系统"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AAF93392BD93B9A00F88F7F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		2AAF93452BD943D200F88F7F /* Identify.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Identify.cpp; sourceTree = "<group>"; };
-		2AAF93462BD943D200F88F7F /* Identify.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Identify.hpp; sourceTree = "<group>"; };
+		2AAF934A2BD94FBB00F88F7F /* Identify.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Identify.cpp; sourceTree = "<group>"; };
+		2AAF934B2BD94FBB00F88F7F /* Identify.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Identify.hpp; sourceTree = "<group>"; };
+		2AAF934D2BD950EE00F88F7F /* Teacher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Teacher.cpp; sourceTree = "<group>"; };
+		2AAF934E2BD950EE00F88F7F /* Teacher.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Teacher.hpp; sourceTree = "<group>"; };
+		2AAF93532BD953A900F88F7F /* Student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		2AAF93542BD953A900F88F7F /* Student.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Student.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +78,21 @@
 			isa = PBXGroup;
 			children = (
 				2AAF93392BD93B9A00F88F7F /* main.cpp */,
-				2AAF93452BD943D200F88F7F /* Identify.cpp */,
-				2AAF93462BD943D200F88F7F /* Identify.hpp */,
+				2AAF934A2BD94FBB00F88F7F /* Identify.cpp */,
+				2AAF934B2BD94FBB00F88F7F /* Identify.hpp */,
+				2AAF934D2BD950EE00F88F7F /* Teacher.cpp */,
+				2AAF934E2BD950EE00F88F7F /* Teacher.hpp */,
+				2AAF93532BD953A900F88F7F /* Student.cpp */,
+				2AAF93542BD953A900F88F7F /* Student.hpp */,
+				2A9DACB52BDA90A800904DFD /* Manager.cpp */,
+				2A9DACB62BDA90A800904DFD /* Manager.hpp */,
+				2A9DACB82BDA92D400904DFD /* GlobalFile.cpp */,
+				2A9DACB92BDA92D400904DFD /* GlobalFile.hpp */,
+				2A9DACBB2BDA938500904DFD /* admin.txt */,
+				2A9DACBC2BDA939D00904DFD /* student.txt */,
+				2A9DACBD2BDA93AA00904DFD /* order.txt */,
+				2A9DACBE2BDA93B700904DFD /* teacher.txt */,
+				2A9DACBF2BDA93C600904DFD /* computer.txt */,
 			);
 			path = "机房预约系统";
 			sourceTree = "<group>";
@@ -125,7 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AAF933A2BD93B9A00F88F7F /* main.cpp in Sources */,
-				2AAF93472BD943D200F88F7F /* Identify.cpp in Sources */,
+				2AAF934C2BD94FBB00F88F7F /* Identify.cpp in Sources */,
+				2A9DACBA2BDA92D400904DFD /* GlobalFile.cpp in Sources */,
+				2A9DACB72BDA90A800904DFD /* Manager.cpp in Sources */,
+				2AAF934F2BD950EE00F88F7F /* Teacher.cpp in Sources */,
+				2AAF93552BD953A900F88F7F /* Student.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
