@@ -13,12 +13,12 @@
 #endif /* GlobalFile_hpp */
 
 //管理员文件
-#define ADMIN_FILE "admin.txt"
+#define ADMIN_FILE "/Users/youxuehu/C++/机房预约系统/机房预约系统/admin.txt"
 //学生文件
-#define STUDENT_FILE "student.txt"
+#define STUDENT_FILE "/Users/youxuehu/C++/机房预约系统/机房预约系统/student.txt"
 //老师文件
-#define TEACHER_FILE "teacher.txt"
+#define TEACHER_FILE "/Users/youxuehu/C++/机房预约系统/机房预约系统/teacher.txt"
 //订单文件
-#define ORDER_FILE "order.txt"
+#define ORDER_FILE "/Users/youxuehu/C++/机房预约系统/机房预约系统/order.txt"
 //机房文件
-#define COMPUTER_FILE "computer.txt"
+#define COMPUTER_FILE "/Users/youxuehu/C++/机房预约系统/机房预约系统/computer.txt"
