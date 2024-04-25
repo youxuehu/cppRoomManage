@@ -37,6 +37,7 @@
 		2A9DACBD2BDA93AA00904DFD /* order.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = order.txt; sourceTree = "<group>"; };
 		2A9DACBE2BDA93B700904DFD /* teacher.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = teacher.txt; sourceTree = "<group>"; };
 		2A9DACBF2BDA93C600904DFD /* computer.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = computer.txt; sourceTree = "<group>"; };
+		2A9DACC12BDAA2A700904DFD /* push.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = push.sh; sourceTree = "<group>"; };
 		2AAF93362BD93B9A00F88F7F /* 机房预约系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "机房预约系统"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AAF93392BD93B9A00F88F7F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2AAF934A2BD94FBB00F88F7F /* Identify.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Identify.cpp; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 		2AAF932D2BD93B9A00F88F7F = {
 			isa = PBXGroup;
 			children = (
+				2A9DACC12BDAA2A700904DFD /* push.sh */,
 				2AAF93382BD93B9A00F88F7F /* 机房预约系统 */,
 				2AAF93372BD93B9A00F88F7F /* Products */,
 			);
