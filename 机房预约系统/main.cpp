@@ -113,7 +113,20 @@ void LoginIn(string fileName, int type) {
         // 管理员身份验证
         cout << "管理员身份验证" << endl;
         
-         
+        string fName;
+        string fPwd;
+        while(ifs >> fName && ifs >> fPwd) {
+            cout << fName << endl;
+            cout << fPwd << endl;
+            cout << endl;
+            
+            if (fName == name && fPwd == pwd) {
+                cout << "登录成功" << endl;
+                cout << "进入管理员菜单" << endl;
+                person = new Manager(name, pwd);
+                return;
+            }
+        }
         
     }
     
