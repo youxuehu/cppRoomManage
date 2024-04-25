@@ -42,7 +42,7 @@ void managerMenu(Identify * &manager) {
             cout << "清空预约" << endl;
             man->clearFile();
         } else if (select == 0) { // 注销登录
-            delete manager;
+            delete man;
             cout << "注销成功" << endl;
             cout << "Press any key to continue...";
             cout << endl;
