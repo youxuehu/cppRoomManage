@@ -39,12 +39,13 @@ void managerMenu(Identify * &manager) {
         } else if (select == 4) { // 清空预约
             
         } else if (select == 0) { // 注销登录
-            delete manager;
+            
             cout << "注销成功" << endl;
             cout << "Press any key to continue...";
             cout << endl;
             cin.get(); // 等待用户输入
             getchar(); // 获取并丢弃输入缓冲区的第一个字符（通常是换行符）
+            delete manager;
             return;
         }
         
