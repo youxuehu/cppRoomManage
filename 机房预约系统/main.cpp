@@ -30,7 +30,7 @@ void managerMenu(Identify * &manager) {
         
         if (select == 1) { // 添加账号
             
-        } else if (select == 2) {/ / 查看账号
+        } else if (select == 2) { // 查看账号
             
         } else if (select == 3) { // 查看机房
             
