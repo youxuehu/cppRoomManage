@@ -29,14 +29,18 @@ void managerMenu(Identify * &manager) {
         cin >> select;
         
         if (select == 1) { // 添加账号
-            
+            cout << "添加账号" << endl;
+            man->addPerson();
         } else if (select == 2) { // 查看账号
-            
+            cout << "查看账号" << endl;
+            man->showPersion();
         } else if (select == 3) { // 查看机房
-            
+            cout << "查看机房" << endl;
+            man->showComputer();
         } else if (select == 4) { // 清空预约
   
-            
+            cout << "清空预约" << endl;
+            man->clearFile();
         } else if (select == 0) { // 注销登录
             
             cout << "注销成功" << endl;
