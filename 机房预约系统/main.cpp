@@ -28,13 +28,13 @@ void managerMenu(Identify * &manager) {
         int select = 0;
         cin >> select;
         
-        if (select == 1) {
+        if (select == 1) {// 添加账号
             
-        } else if (select == 2) { // 添加账号
+        } else if (select == 2) {// 查看账号
             
-        } else if (select == 3) { // 查看账号
+        } else if (select == 3) {// 查看机房
             
-        } else if (select == 4) { // 查看机房
+        } else if (select == 4) {
   
             
         } else if (select == 0) { // 注销登录
