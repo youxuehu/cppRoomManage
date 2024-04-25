@@ -7,5 +7,5 @@
 #  
 git add .
 git commit -m "fix"
-push origin main
+git push origin main
 
