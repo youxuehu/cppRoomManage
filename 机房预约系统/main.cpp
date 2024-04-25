@@ -15,6 +15,10 @@ using namespace std;
 
 #include "GlobalFile.hpp"
 
+#include "Student.hpp"
+#include "Teacher.hpp"
+#include "Manager.hpp"
+
 void LoginIn(string fileName, int type) {
     cout << endl;
     system("pwd");
@@ -74,13 +78,35 @@ void LoginIn(string fileName, int type) {
             cout << fName << endl;
             cout << fPwd << endl;
             cout << endl;
+            
+            if (fId == id && fName == name && fPwd == pwd) {
+                cout << "登录成功" << endl;
+                cout << "进入学生菜单" << endl;
+                person = new Student(id, name, pwd);
+                return;
+            }
         }
        
         
     } else if(type == 2) {
         // 老师身份验证
         cout << "老师身份验证" << endl;
-        
+        int fId;
+        string fName;
+        string fPwd;
+        while(ifs >> fId && ifs >> fName && ifs >> fPwd) {
+            cout << fId << endl;
+            cout << fName << endl;
+            cout << fPwd << endl;
+            cout << endl;
+            
+            if (fId == id && fName == name && fPwd == pwd) {
+                cout << "登录成功" << endl;
+                cout << "进入老师菜单" << endl;
+                person = new Teacher(id, name, pwd);
+                return;
+            }
+        }
          
         
     } else if(type == 3) {
