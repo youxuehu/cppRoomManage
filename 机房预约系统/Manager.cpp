@@ -9,6 +9,11 @@
 #include <iostream>
 using namespace std;
 
+#include "GlobalFile.hpp"
+#include "fstream"
+#include "string"
+
+
 //Manager:: 表示作用域
 //默认构造
 Manager::Manager()
@@ -37,6 +42,51 @@ void Manager::openMenu()
 //添加账号
 void Manager::addPerson()
 {
+    
+    cout << "\t\t 请输入添加的账号类型 \n " << endl;
+    cout << "1、添加学生" << endl;
+    cout << "2、添加老师" << endl;
+    string fileName;
+    string tip;
+    ofstream ofs;
+    
+    int select = 0;
+    
+    cin >> select;
+    if (select == 1) {
+        fileName = STUDENT_FILE;
+        tip = "请输入学号：";
+    } else {
+        fileName = TEACHER_FILE;
+        tip = "请输入职工工号：";
+    }
+    
+    // 打开文件
+    ofs.open(fileName, ios::out | ios::app);
+    
+    int id;
+    
+    string name;
+    string pwd;
+    
+    cout << tip << endl;
+    cin >> id;
+    
+    
+    cout << "请输入姓名：" << endl;
+    cin >> name;
+    
+    
+    cout << "请输入密码：" << endl;
+    cin >> pwd;
+    
+    ofs << id << " " << name << " " << pwd << endl;
+    
+    cout << "添加成功" << endl;
+    
+    
+    ofs.close();
+    
     
 }
 //查看账号
